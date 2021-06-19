@@ -11,10 +11,7 @@
   .intro-img {
     padding: 130px 0;
   }
-  #video-area .contents h1 {
-    font-size: 32px;
-    line-height: 48px;
-  }
+  
   .contents .head-title {
     font-size: 24px !important;
   }
@@ -45,50 +42,31 @@
   .call-action .cta-trial h3 {
     font-size: 18px;
   }
-  #features .box-item .text h4 {
-    font-size: 12px;
+  
+  #services{
+    margin-left: 170px;
   }
-  #features .box-item .icon {
-    width: 48px;
-    height: 48px;
-    margin: 5px 0;
+
+  #treatments{
+    margin-left: 180px;
   }
-  #features .box-item .icon i {
-    line-height: 48px;
+
+  #about .div-slider {
+    margin-left: 100px;
+    
   }
-  #features .content-left .text {
-    margin-right: 60px;
+  #about .biografy {
+   
   }
-  #features .content-right .text {
-    margin-left: 60px;
-  }
-  #cta h5 {
-    font-size: 18px;
-  }
-  #cta .btn {
-    margin: 22px 5px;
-  }
-  .single-team {
-    margin-bottom: 30px;
-  }
+  
   .counters .facts-item {
     margin-bottom: 30px;
   }
-  .subscribe-form {
-    margin-bottom: 30px;
-  }
-  .subscribe-form .sub-title h3 {
-    font-size: 22px;
-  }
+
   .pricing-table .pricing-details ul li {
     font-size: 13px;
   }
-  #blog .blog-item-wrapper {
-    margin-bottom: 30px;
-  }
-  #blog .blog-item-text h3 {
-    font-size: 14px;
-  }
+ 
   .footer-social li {
     margin-right: 2px;
   }
@@ -151,9 +129,7 @@
   .call-action .cta-trial h3 {
     font-size: 22px;
   }
-  #hero-area .contents {
-    padding: 100px 0 20px;
-  }
+  
   #hero-area .contents h1 {
     font-size: 18px;
   }
@@ -182,47 +158,10 @@
   .bg-faded {
     background: #fff !important;
   }
-  #video-area .contents h1 {
-    font-size: 30px;
-    line-height: 48px;
-  }
-  #features .content-right span {
-    float: none;
-  }
-  #features .content-left span {
-    float: none;
-  }
-  #features .box-item .icon {
-    margin: 12px 0;
-  }
-  #features .box-item .text h4 {
-    font-size: 13px;
-  }
-  .subscribe-form {
-    margin-bottom: 30px;
-  }
-  #blog .blog-item-wrapper {
-    margin-bottom: 30px;
-  }
-  #about-area .about-thumb-2 {
+  #about {
     top: 64%;
   }
-  .single-team {
-    margin-bottom: 30px;
-  }
-  .table-left {
-    margin: 0px 0px;
-  }
-  .counters .facts-item {
-    margin-bottom: 30px;
-  }
-  .widget {
-    margin-top: 30px;
-  }
-  .float-right {
-    float: left !important;
-  }
-}
+
 
 @media (min-width: 320px) and (max-width: 480px) {
   .navbar-toggleable-sm > .container {
@@ -240,7 +179,8 @@
     background: #fff !important;
   }
   .navbar-expand-md .navbar-brand, .navbar-expand-md .navbar-toggler {
-    margin: 12px 15px;
+    margin: -5px 15px 5px 15px;
+    
   }
   .navbar-expand-md .navbar-nav .active > .nav-link, .navbar-expand-md .navbar-nav .nav-link.active, .navbar-expand-md .navbar-nav .nav-link.active::before, .navbar-expand-md .navbar-nav .nav-link.open, .navbar-expand-md .navbar-nav .open > .nav-link {
     background: #f1f1f1;
@@ -256,6 +196,16 @@
   }
   .navbar-expand-md .navbar-nav .nav-link::before {
     display: none;
+  }
+  .navbar-brand{
+    padding-left: 30px;
+    padding-top: 50px;
+  }
+  .navbar-brand h3{
+    font-size: 18px;
+  }
+  .navbar-brand img{
+    max-width: 50px;
   }
   .section-header .section-title {
     font-size: 20px;
@@ -276,6 +226,7 @@
   }
   #carousel-area .carousel-item .carousel-caption h2 {
     font-size: 25px;
+    line-height: 50px;
   }
   #carousel-area .carousel-item .carousel-caption h4 {
     font-size: 15px;
@@ -301,19 +252,7 @@
   .text-right {
     text-align: left !important;
   }
-  #features .box-item {
-    text-align: center;
-  }
-  #video-area .contents {
-    padding: 80px 0 60px;
-  }
-  #video-area .contents h1 {
-    font-size: 18px;
-    line-height: 32px;
-  }
-  .video-promo .video-promo-content h2 {
-    font-size: 18px;
-  }
+ 
   .controls .btn {
     font-size: 12px;
     text-transform: capitalize;
@@ -325,32 +264,47 @@
   #cta .btn {
     margin: 10px 0;
   }
-  .single-team {
-    margin-bottom: 30px;
+  
+  #services .title{
+    font-size: 70px;
   }
-  .pricing-tables .pricing-table {
-    margin-bottom: 30px;
+  #services img{
+    margin-left: -55px;
   }
-  .subscribe-form {
-    margin-bottom: 30px;
+
+  #treatments .title{
+    font-size: 60px;
   }
-  .subscribe-form .sub-title h3 {
-    font-size: 20px;
+  #treatments img{
+    margin-left: -55px;
   }
-  .subscribe-form .form-wrapper {
-    padding: 30px 20px;
+  
+
+  #about .slide {
+    top: 0px;
+    left: -5px;
+    opacity: 0;
+    width: 340px;
+    height: 470px;
+    display: block;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+
+    transform: scale(1);
+
+    transition: .5s ease-in-out 0.5s;
+    
   }
-  #subscribe .sub-item-box .text-box h4 {
-    font-size: 15px;
+
+  #about .nav-dots .nav-dot {
+    top: 510px;
+    left: -320px;
+    
+    
   }
-  #blog .blog-item-wrapper {
-    margin-bottom: 30px;
-  }
-  #blog .blog-item-text h3 {
-    font-size: 18px;
-  }
-  #blog .blog-item-text .meta-tags span {
-    margin-right: 5px;
+  #about .biografy {
+   margin-top: 40px;
   }
   .counters .facts-item {
     margin-bottom: 30px;
@@ -399,4 +353,3 @@
   .float-right {
     float: left !important;
   }
-}
