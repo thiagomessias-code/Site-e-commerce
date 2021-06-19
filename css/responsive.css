@@ -55,10 +55,7 @@
     margin-left: 100px;
     
   }
-  #about .biografy {
-   
-  }
-  
+
   .counters .facts-item {
     margin-bottom: 30px;
   }
@@ -66,7 +63,7 @@
   .pricing-table .pricing-details ul li {
     font-size: 13px;
   }
- 
+
   .footer-social li {
     margin-right: 2px;
   }
@@ -264,27 +261,30 @@
   #cta .btn {
     margin: 10px 0;
   }
-  
+  #services .objetivo {
+    margin-left: 50px;
+  }
   #services .title{
     font-size: 70px;
+    
   }
   #services img{
-    margin-left: -55px;
+    margin-left: -25px;
   }
 
   #treatments .title{
     font-size: 60px;
   }
   #treatments img{
-    margin-left: -55px;
+    margin-left: -25px;
   }
   
 
   #about .slide {
     top: 0px;
-    left: -5px;
+    left: -8px;
     opacity: 0;
-    width: 340px;
+    width: 400px;
     height: 470px;
     display: block;
     position: absolute;
@@ -298,13 +298,11 @@
   }
 
   #about .nav-dots .nav-dot {
-    top: 510px;
-    left: -320px;
-    
+    display: none;
     
   }
   #about .biografy {
-   margin-top: 40px;
+   margin-top: 30px;
   }
   .counters .facts-item {
     margin-bottom: 30px;

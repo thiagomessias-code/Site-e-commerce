@@ -667,10 +667,13 @@ button:focus {
    .objetivo1{
     margin-left: -50px;
    }
-   
+   .service-box1, .service-box2 img{
+    filter: drop-shadow(0 0 0.40rem rgba(0, 0, 0, 0.116));
+   }
    .services1 .service-box2{
      margin-left: 50px;
      padding-top: 80px;
+     
    }
    
     .services1 .overtitle{
@@ -747,6 +750,7 @@ button:focus {
 }
 #about img{
   width: 100%;
+  filter: drop-shadow(0 0 0.40rem rgba(0, 0, 0, 0.123));
   
 }
 #about .description-about{
@@ -915,7 +919,7 @@ button:focus {
   #pricing .btn{
     background-color: #F97794;
     border: 1px solid #db7d91; 
-    margin-top:-50px;
+    
   }
   
   #pricing .pricing-big {
