@@ -243,8 +243,12 @@
     border: none !important;
   }
   .call-action .cta-trial h3 {
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 22px;
+    line-height: 23px;
+  }
+  .call-action .cta-trial p{
+    font-size: 15px;
+    margin-top: -20px;
   }
   .text-right {
     text-align: left !important;
@@ -261,6 +265,14 @@
   #cta .btn {
     margin: 10px 0;
   }
+
+  .call-action {
+    background-image: url(../image/fundo\ clinica.jpg);
+    background-size:450px 700px;
+    margin-bottom: -50px;
+    margin-top: 10px;
+    }
+    
   #services .objetivo {
     margin-left: 50px;
   }
@@ -301,11 +313,9 @@
     display: none;
     
   }
-  #about .biografy {
-   margin-top: 30px;
-  }
+ 
   .counters .facts-item {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
   #contact .section-title {
     font-size: 22px;
@@ -315,18 +325,6 @@
     height: 36px;
     line-height: 36px;
     margin-left: 0px;
-  }
-  #blog-single .blog-post .post-content {
-    padding: 15px;
-  }
-  #blog-single .blog-post .post-content h3 {
-    font-size: 15px;
-  }
-  .blog-comment .comment-author {
-    margin-bottom: 40px;
-  }
-  .blog-comment .comment-list .children {
-    padding-left: 0;
   }
   .post-meta ul li {
     line-height: 28px;
