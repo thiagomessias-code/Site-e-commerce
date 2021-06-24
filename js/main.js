@@ -149,7 +149,7 @@
      ========================================================================== */
   $(window).on('load', function () {
     "use strict";
-    $('#loader').fadeOut();
+    $('#loader').delay(2000).fadeOut("slow");
   });
 
 }(jQuery));
