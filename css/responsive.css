@@ -160,6 +160,8 @@
   }
 
 
+
+
 @media (min-width: 320px) and (max-width: 480px) {
   .navbar-toggleable-sm > .container {
     width: 100%;
@@ -350,4 +352,10 @@
   }
   .float-right {
     float: left !important;
+  }
+  .owl-theme .owl-controls .owl-page span {
+    width: 16px;
+    height: 16px;
+    margin: 2px 4px;
+    filter: drop-shadow(0 0 0.10rem rgba(0, 0, 0, 0.158));
   }

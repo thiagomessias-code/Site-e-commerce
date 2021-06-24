@@ -477,10 +477,7 @@ button:focus {
   outline: none;
 }
 
-.logo-menu a {
-  font-size: 20px;
-  color: #fff;
-}
+
 
 .menu-bg {
   background-color: white !important;
@@ -561,6 +558,7 @@ button:focus {
   padding: 5px 0px;
   margin-left: 30px;
   position: relative;
+  text-shadow: rgba(0, 0, 0, 0.062) 0px 2px 2px;
 }
 
 .navbar-expand-md .navbar-nav .nav-link:before {
@@ -589,7 +587,6 @@ button:focus {
   font-family: "Valentine";
   font-size: 14px;
   color: #F97794;
-  
 }
 .navbar-brand img {
   max-width: 35px;
@@ -1090,9 +1087,10 @@ background-repeat: no-repeat;
 
 .owl-theme .owl-controls .owl-page span {
   display: block;
-  width: 12px;
-  height: 12px;
+  width: 16px;
+  height: 16px;
   margin: 2px 4px;
+  filter: drop-shadow(0 0 0.10rem rgba(0, 0, 0, 0.253));
   filter: alpha(opacity=50);
   opacity: 1;
   border-radius: 30px;
@@ -1145,9 +1143,9 @@ background-repeat: no-repeat;
   font-size: 50px;
   font-weight: 700;
   color: #fff;
-  font-family: "Valentine";
   padding-bottom: 20px;
   text-shadow: rgba(0, 0, 0, 0.205) 2px 2px 2px;
+ 
 }
 
 #carousel-area .carousel-item .carousel-caption h4 {
