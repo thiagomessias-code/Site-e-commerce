@@ -345,7 +345,7 @@ button:focus {
     width: 100px;
     height: 90px;
     top: 30%;
-    left: 2%;
+    
     position: relative;
     margin: 0px auto;
   }
@@ -773,12 +773,21 @@ background-repeat: no-repeat;
 }
 
 #about .biografy{
-  padding: 10px;
   text-align: justify;
+  font-weight: 600;
+  margin-top: 50px;
+  font-size: 15px;
 }
 #about .biografy > span{
   color: #F97794;
   font-weight: bold;
+}
+#about .biografy > a{
+  color: #546E7A;
+}
+#about .biografy > a:hover{
+  text-decoration: underline;
+  color: #F97794;
 }
 #about .biografy span > a:hover{
   text-decoration: underline;
@@ -835,7 +844,6 @@ background-repeat: no-repeat;
   
   #about .slide img {
       width: 100%;
-      height: 100%;
   }
   
 
@@ -860,10 +868,10 @@ background-repeat: no-repeat;
   }
   
   #about .nav-dots .nav-dot {
-    top: 590px;
+    top: 520px;
     left: -250px;
-    width: 16px;
-    height: 15px;
+    width: 18px;
+    height: 17px;
     margin: 0 4px;
     position: relative;
     border-radius: 100%;
@@ -1304,6 +1312,12 @@ textarea {
   overflow: hidden;
 }
 
+#contact .infos li {
+  font-size: 10px;
+}
+#contact .infos {
+  margin: 20px;
+}
 .text-danger {
   font-size: 14px;
   margin-top: 10px;
@@ -1508,12 +1522,7 @@ footer .menu li a:hover {
   background-color: #dd4b39;
 }
 
-#copyright {
-  background-color: #ffffff;
-  padding: 20px 0 10px;
-  border-top: 1px solid #eaeaea;
-  color: #546E7A;
-}
+
 
 #copyright p {
   margin-bottom: 0;
