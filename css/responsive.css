@@ -22,7 +22,7 @@
   .navbar-expand-md .navbar-nav .nav-link {
     padding: 12px 5px;
     font-size: 13px;
-    margin-left: 15px;
+    margin-left: -1px;
   }
   .mainmenu-area .menu-button {
     line-height: 46px;
@@ -85,11 +85,13 @@
   .bg-white .collapse.show {
     background: #fff;
   }
+ 
   .navbar-toggleable-sm > .container {
     width: 100%;
     padding-left: 30px;
     padding-right: 30px;
   }
+
   .navbar-expand-md .navbar-brand, .navbar-expand-md .navbar-toggler {
     margin: 12px 15px;
   }
@@ -97,10 +99,9 @@
     background: #ddd;
   }
   .navbar-expand-md .navbar-nav .nav-link {
-    padding: 4px 12px;
-    text-align: center;
-    margin-bottom: 3px;
-    margin-left: 0;
+    padding: 12px 5px;
+    font-size: 13px;
+    margin-left: -1px;
   }
   .navbar-expand-md .navbar-nav .nav-link::before {
     display: none;
@@ -291,7 +292,12 @@
     
   }
   #services .title{
-    font-size: 70px;
+    font-size: 60px;
+    
+  }
+  #services .subtitle{
+    margin-top: 30px;
+    margin-left: 130px;
     
   }
   #services img{
