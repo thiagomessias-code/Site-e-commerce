@@ -53,6 +53,7 @@
   /* 
      Touch Owl Carousel
      ========================================================================== */
+  
   var owl = $(".touch-slider");
   owl.owlCarousel({
     navigation: false,
