@@ -324,7 +324,7 @@ button:focus {
 /* ==========================================================================
    2.4  Pre Loader
    ========================================================================== */
-   #loader {
+   loader {
     position: fixed;
     top: 0;
     left: 0;
@@ -1079,7 +1079,6 @@ background-repeat: no-repeat;
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
   background: #F97794;
 }
-
 
 
 /* ==========================================================================
