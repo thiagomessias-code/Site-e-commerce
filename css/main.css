@@ -324,7 +324,7 @@ button:focus {
 /* ==========================================================================
    2.4  Pre Loader
    ========================================================================== */
-   #loader {
+   loader {
     position: fixed;
     top: 0;
     left: 0;
@@ -449,6 +449,73 @@ button:focus {
   opacity: 0.5;
   filter: alpha(opacity=80);
 }
+
+/* ========================================================================== 
+  -2.5 Button whatsapp 
+   ========================================================================== */
+   #div-fixa{
+    position: fixed;
+    bottom: 20px;
+    margin: 0 15px; 
+    background: rgb(59, 253, 88);
+    width: 210px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5s all;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.205);
+ }
+ #div-fixa img{
+     width: 40px;
+     height: 40px;
+     
+ }
+ #div-fixa a .flex-itens{
+     display: flex;
+     align-items: center;
+ }
+ #div-fixa a .flex-itens span{
+     display: block;
+     font-size: 17px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bold;
+     color: #263238;
+     margin-left: 6px;
+     min-width: 170px;
+    opacity: 0;
+ }
+ #div-fixa a .flex-itens span.mostrar {
+  transition: 0.5s all;
+  opacity: 1;
+ }
+ 
+ #div-fixa.shrink{
+   width: 40px;
+   height: 40px;
+   margin-top: 10px;
+   margin-left: 10px;
+   overflow: hidden;
+   transition: 0.5s all;
+ }
+ .flutuar{
+ animation-name: flutuar;
+ animation-duration: 0.7s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+ animation-timing-function: ease-in-out;
+ }
+ 
+ @keyframes flutuar {
+     from {
+        transform: translate3d(0, 0, 0);
+         filter: brightness(100%);
+     }
+     to {
+         transform: translate3d(0, -10px, 0);
+         filter: brightness(120%);
+     }
+ }
+
+
 
 /* ==========================================================================
    Navbar Style

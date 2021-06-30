@@ -187,3 +187,24 @@ $(document).ready(function () {
   );
 
 });
+
+
+/*button whatsapp
+  ========================================================*/
+
+  const content = document.querySelector('[data-shrink="yes"]');
+
+  const span = document.querySelector('[data-shrink2="yes"]');
+ 
+  span.classList.add('mostrar')
+
+  setInterval(function(){
+  content.classList.toggle('shrink')
+  },10000)
+
+  setTimeout(function(){
+    setInterval(function(){
+      span.classList.toggle('mostrar')
+      },10000)
+  },400)
+ 
