@@ -745,7 +745,7 @@
         <div class="row">
           <div class="col-lg-9 col-md-9 col-xs-12">
             <div class="contact-block">
-              <form id="contactForm">
+              <form action="js/email.php" id="contactForm" method="POST">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
@@ -756,7 +756,7 @@
                   </div>
                   <div class="col-md-6">
                     <div class="form-group">
-                      <input type="text" placeholder="Din Email" id="email" class="form-control" name="name" required
+                      <input type="text" placeholder="Din Email" id="email" class="form-control" name="email" required
                         data-error="Please enter your email">
                       <div class="help-block with-errors"></div>
                     </div>
@@ -770,7 +770,7 @@
                   </div>
                   <div class="col-md-12">
                     <div class="form-group">
-                      <textarea class="form-control" id="message" placeholder="Ditt Meddelande" rows="7"
+                      <textarea class="form-control" id="message" name="message" placeholder="Ditt Meddelande" rows="7"
                         data-error="Write your message" required></textarea>
                       <div class="help-block with-errors"></div>
                     </div>

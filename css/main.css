@@ -157,7 +157,6 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .btn-common {
   background-color: #F97794;
-  position: relative;
   z-index: 1;
   padding: 12px 32px;
   border-radius: 30px;
@@ -324,7 +323,7 @@ button:focus {
 /* ==========================================================================
    2.4  Pre Loader
    ========================================================================== */
-   loader {
+   #loader {
     position: fixed;
     top: 0;
     left: 0;

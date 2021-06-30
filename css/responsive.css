@@ -273,6 +273,9 @@
     font-size: 12px;
     text-transform: capitalize;
   }
+  .btn-common{
+    position: none;
+  }
   #cta h5 {
     font-size: 18px;
     line-height: 30px;
@@ -288,9 +291,7 @@
     margin-top: 10px;
     }
     
-  #services {
-    
-  }
+ 
   #services .title{
     font-size: 60px;
     
