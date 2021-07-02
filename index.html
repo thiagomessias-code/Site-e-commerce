@@ -745,7 +745,7 @@
         <div class="row">
           <div class="col-lg-9 col-md-9 col-xs-12">
             <div class="contact-block">
-              <form action="js/email.php" id="contactForm" method="POST">
+              <form onsubmit="emailSend()" id="contactForm" method="POST">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
@@ -965,6 +965,12 @@
         </div>
     </a>
 </div>
+
+<script>
+  function sendEmail(){
+    
+  }
+</script>
 
   <!-- jQuery first, then Tether, then Bootstrap JS. -->
   <script src="js/jquery-min.js"></script>
