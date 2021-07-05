@@ -745,7 +745,7 @@
         <div class="row">
           <div class="col-lg-9 col-md-9 col-xs-12">
             <div class="contact-block">
-              <form onsubmit="emailSend()" id="contactForm" method="POST">
+              <form onsubmit="emailSend()" class="contactForm" method="POST">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
@@ -968,7 +968,20 @@
 
 <script>
   function sendEmail(){
-    
+    let name = document.getElementById('name');
+    let email = document.getElementById('email');
+    let subject = document.getElementById('msg_subject');
+    let message = document.getElementById('message');
+
+
+    let formData = {
+        name: name.value,
+        email: email.value,
+        subject: msg_subject.value,
+        message: message.value,
+    }
+
+       con.log(formData)
   }
 </script>
 
@@ -995,6 +1008,7 @@
   <script type="text/javascript"></script>
   <script src="js/main.js">
   </script>
+ 
 
 
 
