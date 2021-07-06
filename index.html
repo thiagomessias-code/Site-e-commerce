@@ -745,7 +745,7 @@
         <div class="row">
           <div class="col-lg-9 col-md-9 col-xs-12">
             <div class="contact-block">
-              <form onsubmit="emailSend()" class="contactForm" method="POST">
+              <form action="#" onsubmit="sendEmail() ;return false" class="contactForm">
                 <div class="row">
                   <div class="col-md-6">
                     <div class="form-group">
@@ -977,15 +977,24 @@
     let formData = {
         name: name.value,
         email: email.value,
-        subject: msg_subject.value,
-        message: message.value,
+        subject: subject.value,
+        message: 'Nome: '+name.value+
+        '\nE-mail: '+email.value+
+        '\nAssunto:'+subject.value+
+        '\nMensagem: '+message.value,
     }
 
-       con.log(formData)
+       console.log(formData)
+
+       axios.post('https://api-mail-send.herokuapp.com/', formData)
+       .then(result => {
+         console.log(result)
+       })
   }
 </script>
 
   <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>  
   <script src="js/jquery-min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
