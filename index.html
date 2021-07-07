@@ -270,10 +270,9 @@
             <div class="col-12">
 
             </div>
-           
+
             <div class="col-lg-12 col-md-12 col-xs-12">
-              <div id="carouselExampleIndicators2" class="carousel slide "
-                data-bs-ride="carousel">
+              <div id="carouselExampleIndicators2" class="carousel slide " data-bs-ride="carousel">
                 <div class="carousel-inner  owl-carousel touch-slider">
                   <div class="carousel-item active">
                     <div class="row">
@@ -294,7 +293,7 @@
                             </div>
                           </div>
                         </div>
-                        
+
                       </div>
                       <div class="col-md-4 mb-3">
                         <div class="card text-center">
@@ -333,7 +332,7 @@
                       </div>
                     </div>
                   </div>
-                   <div class="carousel-item active">
+                  <div class="carousel-item active">
                     <div class="row">
                       <div class="col-md-4 col-md3">
                         <div class="card text-center">
@@ -352,7 +351,7 @@
                             </div>
                           </div>
                         </div>
-                        
+
                       </div>
                       <div class="col-md-4 mb-3">
                         <div class="card text-center">
@@ -959,44 +958,48 @@
   <!--Button whatsapp-->
   <div id="div-fixa" class="flutuar" data-shrink="yes">
     <a href="https://api.whatsapp.com/send?1=pt_br&phone=46%2073%20803%2065%2092" target="_blank">
-        <div class="flex-itens">
-            <img src="image/zap.png" alt="Chamar zap">
-            <span class="flutuar2" data-shrink2="yes">Converse conosco</span>
-        </div>
+      <div class="flex-itens">
+        <img src="image/zap.png" alt="Chamar zap">
+        <span class="flutuar2" data-shrink2="yes">Converse conosco</span>
+      </div>
     </a>
-</div>
+  </div>
 
-<script>
-  function sendEmail(){
-    let name = document.getElementById('name');
-    let email = document.getElementById('email');
-    let subject = document.getElementById('msg_subject');
-    let message = document.getElementById('message');
+  <script>
+    function sendEmail() {
+      let name = document.getElementById('name');
+      let email = document.getElementById('email');
+      let subject = document.getElementById('msg_subject');
+      let message = document.getElementById('message');
 
 
-    let formData = {
+      let formData = {
         name: name.value,
         email: email.value,
         subject: subject.value,
-        message: 'Nome: '+name.value+
-        '\nE-mail: '+email.value+
-        '\nAssunto:'+subject.value+
-        '\nMensagem: '+message.value,
+        message: 'Nome: ' + name.value +
+          '\nE-mail: ' + email.value +
+          '\nAssunto: ' + subject.value +
+          '\nMensagem: ' + message.value,
+      }
+
+      console.log(formData)
+
+      axios.post(formData)
+        .then(result => {
+          console.log(result)
+        })
+
+        name.value = "",
+        email.value = "",
+        subject.value = "",
+        message.value = ""
     }
 
-    
-       console.log(formData)
-
-       axios.post('https://api-mail-send.herokuapp.com/', formData)
-       .then(result => {
-         console.log(result)
-       })
-  }
-  
-</script>
+  </script>
 
   <!-- jQuery first, then Tether, then Bootstrap JS. -->
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>  
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src="js/jquery-min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -1019,7 +1022,7 @@
   <script type="text/javascript"></script>
   <script src="js/main.js">
   </script>
- 
+
 
 
 
